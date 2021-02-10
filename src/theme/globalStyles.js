@@ -13,6 +13,10 @@ export const GlobalStyles = createGlobalStyle`
     cursor: pointer;
   }
 
+  img {
+    width:10%;
+  }
+
   input {
     padding: 0.5em;
 	color: palevioletred;

@@ -3,6 +3,9 @@ import styled, { ThemeProvider } from "styled-components";
 import WebFont from 'webfontloader';
 import { GlobalStyles } from './theme/globalStyles';
 import {useTheme} from './theme/useTheme';
+import logo from './images/logo.jpeg';
+
+
 
 const Container = styled.div`
   text-align: center
@@ -33,6 +36,7 @@ function App() {
       themeLoaded && <ThemeProvider theme={ selectedTheme }>
         <GlobalStyles/>
         <Container style={{fontFamily: selectedTheme.font}}>
+          <img src={logo} alt=''/>
           <h1>Sign up</h1>
           <form>
           <input placeholder='Username' type='text'/>
