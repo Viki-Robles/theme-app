@@ -17,7 +17,7 @@ export const useTheme = () => {
     return allFonts;
   }
 
-  useEffect(() =>{
+  useEffect(() => {
     const localTheme = getFromLS('theme');
     localTheme ? setTheme(localTheme) : setTheme(themes.themes.light);
     setThemeLoaded(true);

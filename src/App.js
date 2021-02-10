@@ -36,7 +36,7 @@ function App() {
       themeLoaded && <ThemeProvider theme={ selectedTheme }>
         <GlobalStyles/>
         <Container style={{fontFamily: selectedTheme.font}}>
-          <img src={logo} alt=''/>
+          <img src={logo} alt='' style={{marginTop:'40px'}}/>
           <h1>Sign up</h1>
           <form>
           <input placeholder='Username' type='text'/>

@@ -1,4 +1,4 @@
-import { createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   img {
-    width:10%;
+    width:4%;
   }
 
   input {
